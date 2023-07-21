@@ -1,0 +1,203 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 100%;
+    padding: 0.5%;
+}
+
+ #banner{
+  position: relative;
+ }   
+ #subtituloBanner{
+  position: absolute;
+  top: 250px;
+  font-size: 4rem;
+  color:#00425A;
+  background-color:#FC7300;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+ }
+html{
+   
+    scroll-behavior: smooth;
+}
+#menu{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+
+
+#encabezado{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    background-color:#EFF5F5;
+    z-index: 1000 ;
+}
+
+/*Nuevo */
+nav {
+  background-color: #6eeb74;
+  text-align: center; 
+  font-size: 22px;
+}
+#Contacto{
+  background-color: #7ee9b3;
+  display: grid;
+  grid-template-columns: 3fr 3fr 3fr;
+  justify-content: center;
+  align-items: center;
+  
+}
+#formularioContacto {
+  background-color: #44ee99;
+  text-align: center; 
+  font-size: 22px;
+}
+ nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block; 
+  margin-right: 20px; 
+}
+
+nav li:last-child {
+  margin-right: 0; 
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  padding: 10px;
+}
+
+nav a:hover {
+  background-color: #1F8A70;
+  color: #fff;
+} 
+
+/* Estilos generales para los divs que reemplazan a la tabla */
+.contacto {
+  
+  display: grid;
+  text-align: center;
+  
+ 
+grid-template-columns: repeat(3, 1fr);
+}
+
+.contacto div {
+  padding: 10px;
+  
+}
+
+/* Estilos específicos para cada div (simulando las celdas de la tabla) */
+.direccion {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.correo a {
+  text-decoration: none;
+  color: #008a0b;
+  font-size: 22px;
+}
+
+.telefono a {
+  text-decoration: none;
+  color: #008a0b;
+  text-align: center;
+  font-size: 22px;
+}
+#ImagenesEscuela{
+      background-color: rgb(255, 211, 161);
+      display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+#SobreNosotros{
+  background-color: #ffa153;
+  text-align: center;
+  font-size: 3rem;
+  color: #1F8A70;
+
+}
+#pizarron{
+  color: green;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#clase{
+  color: green;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#Biblo{
+  color: green;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#vistanos{
+  color: #008a0b;
+}
+#juegos{
+  background-color: rgb(255, 211, 161);
+  display: grid;
+grid-template-columns: repeat(3, 1fr);
+}
+#porque{
+  background-color: #ffa153;
+  text-align: center;
+  font-size: 3rem;
+  color: #1F8A70;
+
+}
+
+#soga{
+  color: green;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#carpas{ 
+  color: green;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#Futbol{
+  color: green;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#noved{
+  background-color: #ffa153;
+  text-align: center;
+  font-size: 3rem;
+  color: #1F8A70;
+
+}
+#Eleginos{
+  background-color: rgb(255, 211, 161);
+  display: grid;
+grid-template-columns: repeat(3, 1fr);
+}
+#inta{
+  color: green;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#loker{
+  color: green;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#canchas{
+  color: green;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#piePagina{
+  background-color: #6eeb74;
+}

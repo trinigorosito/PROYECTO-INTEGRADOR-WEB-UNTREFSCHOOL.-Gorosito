@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+    
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <title>Practica</title>  
+    <link rel="stylesheet" href="css/master.css">
+
+
+    </head>
+  
+
+
+    <body>
+        <header >
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Sobre nosotros</a></li>
+                    <li><a href="./nosotros.html">¿Por qué elegirnos?</a></li>
+                    <li><a href="#">Prouesta educativa</a></li>
+                    <li><a href="#">Novedades</a></li>
+                    <li><a href="./contactos.html">Contáctanos</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section id="formularioContacto">
+            <h2>Contactanos</h2>
+            <form action="datos.php" method="get">
+                <div>
+                    <label for="nombre">Nombre</label>
+                    <br>
+                    <input type="text" name="nombre" value="" id="nombre" required placeholder="Indique su nombre">
+        
+                </div>
+                <div>
+                    <label for="apellido">Apellido</label>
+                    <br>
+                    <input type="text" name="apellido" value="" id="apellido" required placeholder="Indique su apellido">
+                </div>
+                <div>
+                    <label for="mail">E-mail</label>
+                    <br>
+        
+                    <input type="text" name="mail" value="" id="mail" required placeholder="Indiquie su e-mail">
+                </div>
+                <div>
+                    <label for="comentario">Comentario</label>
+                    <br>
+                    <textarea name="comentario" id="comentario" cols="30" rows="10" required placeholder="Indique aqui su comentario"></textarea>
+                </div>
+                <div>
+                    <button type="submit">Enviar comentario</button>
+                </div>
+            </form>
+        
+        </section>
+        <footer id="piePagina">
+                <div class="contacto">
+                    <div class="direccion">
+                      <p id="vistanos">Visítanos.</p>
+                    </div>
+                    <div class="correo">
+                      <a href="mailto:untref.school@gmail.com">untref.school@gmail.com</a>
+                    </div>
+                    <div class="telefono">
+                      <a href="tel:4952-7386">¡Llámanos!</a>
+                    </div>
+                  
+                  
+            </div>
+        </footer>
+        
+        </body>
+</html>
